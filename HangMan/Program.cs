@@ -71,7 +71,7 @@ namespace HangMan
             //Setting up the random word generator
             //with a list of words of my choosing
             Random wordRandom = new Random();
-            string[] wordBank = { "geronimo", "fezzes", "bowties", "dalek", "sweetie", "screwdriver", "custard", "fantastic"};
+            string[] wordBank = { "geronimo", "fezzes", "bowties", "dalek", "sweetie", "screwdriver", "custard", "fantastic", "fingers", "badwolf", "ginger", "cybermen", "silence", "gallifrey","master", "sontarans", "ood", "adipose", "silurians", "siltheen"};
             string wordToGuess = wordBank[wordRandom.Next(0, wordBank.Length)];
             //Making it so if the user enters in 
             //lowercase or uppercase letters 
@@ -242,7 +242,7 @@ namespace HangMan
             if (won)
             {
                 Console.WriteLine();
-                Console.WriteLine("You have saved all of time and space! You are by far the best companion that I have ever had the please of having!");
+                Console.WriteLine("You have saved all of time and space! You are by far the best companion that I have ever had the pleasure of having!");
             }
             //If the user did not guess the correct word
             //in the amount of guesses given then
